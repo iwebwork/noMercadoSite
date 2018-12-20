@@ -1,6 +1,6 @@
 .area1-container{
 
-	margin-top: 40px;
+	margin-top: 30px;
 }
 
 .area1-itens{
@@ -9,4 +9,36 @@
 
 .slides1-corpo{
 	margin-top: 40px;
+}
+
+
+.corpo-playStore{
+	width: 100px;
+	height: 100px;
+}
+
+.area-app{
+	width: 70px;
+	height: 40px;
+}
+
+.area-app a {
+	text-decoration: none;
+}
+
+.area-app a:hover {
+	text-decoration: none;
+}
+
+.area-rede{
+	width: 60px;
+	height: 50px;
+}
+
+.area-rede a:hover {
+	text-decoration: none;
+}
+
+.list-integrantes{
+	list-style: none;
 }
