@@ -1,34 +1,13 @@
-
-
-
-footer{
-    
-    /*#f7f7f7 */
-    border-top: 1px #FFFAFA groove;
-    font-size: 14px;
-    margin-top: 100px;
-    
+.rodape{
+    color: #FFFFFF;
+    margin: 0;
 }
 
-.area-itens{
-    
-    margin-top: 15px;
+.rodape ul li{
+    list-style: none;
 }
 
-.title-item{
-    margin-top: 10px;
-    margin-bottom: 15px;
-    color: #000000;
-}
-
-.conteudo-item{
-    
-    margin-bottom: 3px;
-}
-
-
-.area-secundaria{
-    
+.area-rodape{
+    margin: 0;
     margin-top: 10px;
 }
-

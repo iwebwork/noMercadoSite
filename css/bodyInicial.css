@@ -42,3 +42,26 @@
 .list-integrantes{
 	list-style: none;
 }
+
+.carousel-inner img {
+    width: 50%;
+    height: 50%;
+}
+
+.area-celular{
+	margin-left: 20px;
+}
+
+.area-slides{
+	background-color: #F0F0F0 !important;
+	color:rgb(228, 0, 43);	
+}
+
+@media only screen and (max-width: 600px) {
+  .area-celular{
+  		display: none;
+  }
+  .area-slides{
+  	display: none;
+  }
+}
