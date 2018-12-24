@@ -77,56 +77,40 @@
 	<div class="container-fluid" id="main">
 	  	
 	  	<div class="row d-flex justify-content-center">
-	  		<div class="col-sm-5 align-self-center bg-txt-area1">
-	  			<div>
-	  				<p class="h4">A melhor experiencia de delivery no seu bolso.</p>
-	  				<p class="font-2 font-weight-light">Acompanhe o pedido direto do app, disponivel para celulares e tablets.</p>
-	  				
-	  			</div>
-	  			<div class="d-flex justify-content-start">
-	  				<a href="https://play.google.com/store/apps/details?id=com.oficial.nomercado&hl=pt_BR" target="_blank">
-	  					<img  src="Imagens/google play.png" class=" mx-auto d-block img-googlePlay" >
-	  				</a>
-	  			</div>
+	  		<div class="col-md-1"></div>
+	  		<div class="col-md-3 align-self-center bg-txt-area1">
 	  			
-	  		</div>
-	  		
-	  		<div class="col-sm-3 area2 area-celular">
-	  			
-	  			<img src="Imagens/celularplay.png" class="img-celular float-right">
-	  			
-	  		</div>
-	  	</div>
+		  			<div class="">
+		  				<p class="h5">Os melhores mercados onde você estiver.</p>
+		  				<p class="font-2 font-weight-light">
+		  					Acompanhe suas compras direto do app, disponível para celulares.
+		  				</p>
+		  				
+		  			</div>
 
-	  	
-
-		<div class="row justify-content-around">
-			<div class="col-sm-1"></div>
-			
-			<div class="col-sm-2 area-slides">
-				<div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+		  			<div id="carouselExampleSlidesOnly" class="carousel slide area-slides" data-ride="carousel">
 						<div class="carousel-inner">
 						    <div class="carousel-item active slides1-corpo">
 						    	<div class="text-center">
 						     		<img src="Imagens/time-passing.png" class="img-fluid"  alt="Responsive image">
 						     	</div>
 						     	<p class="text-center">Economize tempo:</p>
-						     	<p>Receba suas compras em casa em menos de 1 hora.</p> 
+						     	<p class="text-center">Receba suas compras em casa em menos de 1 hora.</p> 
 						     	
 						    </div>
-						    <div class="carousel-item slides1-corpo">
+						    <!--<div class="carousel-item slides1-corpo">
 						      	<div class="text-center">
 						     		<img src="Imagens/gift.png" class="img-fluid"  alt="Responsive image">
 						     	</div>
 						     	<p class="text-center">Em mãos experientes:</p>
 						     	<p>Um shopper seleciona seus produtos com amor.</p>
-						    </div>
+						    </div>-->
 						    <div class="carousel-item slides1-corpo">
 						      	<div class="text-center">
 						     		<img src="Imagens/medal (1).png" class="img-fluid"  alt="Responsive image">
 						     	</div>
 						     	<p class="text-center">Comprovada:</p>
-						     	<p>Se não gostar do estado de algum produto, não pagará por ele!</p>
+						     	<p class="text-center">Se não gostar do estado de algum produto, não pagará por ele!</p>
 
 						    </div>
 						     <div class="carousel-item slides1-corpo">
@@ -134,7 +118,7 @@
 						     		<img src="Imagens/painting-palette.png" class="img-fluid"  alt="Responsive image">
 						     	</div>
 						     	<p class="text-center">Qualidade:</p>
-						     	<p>A simplicidade é a máxima sofisticação. Um app simples, fácil e leve de utilizar.</p> 
+						     	<p class="text-center">A simplicidade é a máxima sofisticação. Um app simples, fácil e leve de utilizar.</p> 
 						     	
 						    </div>
 						    <div class="carousel-item slides1-corpo">
@@ -142,59 +126,75 @@
 						     		<img src="Imagens/house.png" class="img-fluid"  alt="Responsive image">
 						     	</div>
 						     	<p class="text-center">Comodidade:</p>
-						     	<p>Receba suas compras em sua casa com total comodidade e segurança.</p>
+						     	<p class="text-center">Receba suas compras em sua casa com total comodidade e segurança.</p>
 						    </div>
 						</div>
 					</div>
+	  		</div>
+	  		
+	  		<div class="col-md-3">
+	  			<img src="Imagens/celularplay.png" class="area-celular img-fluid" alt="Responsive image">
+	  		</div>
+	  			
+	  		
+	  		
+	  		<a class="d-flex align-items-center" href="https://play.google.com/store/apps/details?id=com.oficial.nomercado&hl=pt_BR" target="_blank">
+		  		<img  src="Imagens/google play.png" class="mx-auto d-block img-googlePlay img-fluid" alt="Responsive image">
+		  	</a>
+	  		
+	  		<div class="col-sm-4">
+	  			
+	  		</div>
+	  		
+	  	</div>
+
+	  	
+
+		<div class="row d-flex justify-content-center">
+			
+			<div class="col-md-4"></div>
+			
+			<div class="col-md-3">
+				
 				
 
 			</div>
-			<div class="col-sm-1"></div>
+			
+			
+			
+			<div class="col-md-3"></div>
 
-			<div class="col-sm-3 NoMercadoEstilo">
-					<div class="d-flex align-items-center">
-						<div class="area1-itens">
-							<h6 class="text-center">"Se o Tom usasse o No Mercado, não precisaria correr atras do Jerry."</h6>
-				
-						
-							<img src="Imagens/Originais/Branco.png" class="img-fluid rounded-0"  alt="Responsive image">
-						</div>
-					</div>
-				
-				
-			</div>
-			
-			
-			<div class="col-sm-1"></div>
 			
 		</div>
 
-		
-
-		<footer class="area-rodape">
-			<div class="row d-flex justify-content-around rodape bg-secondary">
-				<div class="col-sm-3">
-					<h6 class="text-center">Contato</h6>
-					<ul class="">
-						
-						<li class=""><h6>Telefone: +55 31 99199-3667</h6></li>
-						<li class="">
+	</div>
+	<footer class="area-rodape">
+			<div class="row d-flex justify-content-center rodape NoMercadoEstilo">
+				<div class="col-md-2"></div>
+				<div class="col-md-4">
+					
+					<ul class="text-left">
+						<li>
+							<h6 class="text-center">Contato:</h6>
+						</li>
+						<li class="font-italic"><h6 class="text-center">Telefone: +55 31 99199-3667</h6></li>
+						<li class="font-italic">
 							
-								<h6>
-									Instagram: nomercadobr
+								<h6 class="text-center">
+									Instagram: nomercadobr   
 									<a href="http://instagram.com/nomercadobr" target="_blank">
-										<img class="" src="Imagens/instagram3.png" class="img-fluid" alt="">
+										<img class="" src="Imagens/instagram3.png" class="img-fluid" alt="Responsive image">
 									</a>
 								</h6> 
 								
 							
 						</li>
-						<li class="">
+						<li class="font-italic">
 							
-								<h6>
+								<h6 class="text-center">
 									Twitter: nomercadobr
-									<a href="http://twitter.com/nomercadobr" target="_blank">
-										<img src="Imagens/twitter2.png" class="img-fluid" alt="">
+									<a class="img-twt" href="http://twitter.com/nomercadobr" target="_blank">
+										<img src="Imagens/twitter2.png" class="img-fluid" alt="Responsive image">
 									</a>
 								</h6> 
 								
@@ -202,33 +202,27 @@
 						</li>
 					</ul>
 				</div>
-				<div class="col-sm-3">
-					<h6 class=""></h6>
-					<ul>
+				<div class="col-md-4">
+					<ul class="text-center">
 						<li>
-							<h6 class="text-center">Nossos Objetivos</h6>
+							<h6 class="">Nossos Objetivos:</h6>
 						</li>
 						<li>
-							<h6>- Mobilidade</h6>
+							<h6 class="font-italic text-link"><a style="" href="#">Confira</a></h6>
 						</li>
-						<li>
-							<h6>- Eficiência</h6>
-						</li>
-						<li>
-							<h6>- Rapidez</h6>
-						</li>
+						
 					</ul>
 				</div>
+				<div class="col-md-2"></div>
 			</div>
 
-			<div class="row rodape bg-secondary">
+
+			<div class="row rodape NoMercadoEstilo">
 				<div class="col d-flex justify-content-center">
 					<h6>Todos os direitos reservados No Mercado - <data id="data"></data></h6>
 				</div>
 			</div>
 		</footer>
-
-	</div>
 
 	  	
 	

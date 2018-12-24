@@ -11,3 +11,17 @@
     margin: 0;
     margin-top: 10px;
 }
+
+.img-twt{
+	padding-left: 20px;
+}
+
+.text-link{
+	text-decoration: none;
+	
+}
+
+.text-link a{
+	
+	color: rgb(255, 255, 255) !important;
+}
